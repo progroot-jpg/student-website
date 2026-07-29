@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا</title>
+	<link rel="icon" href="./images/book-icon.ico" ></link>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #03346E; /* لون خلفية الصفحة */
+        }
+        header {
+            background-color: #021526;
+            color: white;
+            padding: 10px 0;
+            height: 50px;
+        }
+        .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            font-size: 18px;
+        }
+        .menu li {
+            margin: 0 15px;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+        }
+        .menu a:hover {
+            background-color:#6EACDA;
+        }
+        main {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .contact-box {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 20px;
+            width: 80%;
+            max-width: 400px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .contact-box h2 {
+            color:#003d9d;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .contact-box label {
+            color:#003d9d;
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .contact-box input[type="text"],
+        .contact-box textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        .contact-box button {
+            background-color: #003d9d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .contact-box button:hover {
+            background-color: #003d9d;
+        }
+        footer {
+            background-color:#021526;
+            color:#FFFCFB;
+            text-align: center;
+            padding: 10px 0;
+            height: 60px;
+            width: 100%;
+            margin: 0 auto;
+           
+        }
+                
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul class="menu">
+           <li><a href="index.html">الصفحة الرئيسية</a></li>
+			<li><a href="الربيع.html">الربيع </a></li>
+			<li><a href="الصيف.html">الصيف </a></li>
+			<li><a href="الخريف.html">الخريف </a></li>
+			<li><a href="الشتاء.html">الشتاء </a></li>
+            <li><a href="contactus.html">اتصل بنا</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+   <div class="contact-box">
+   <h2>اتصل بنا</h2>
+    <form>
+    <label>الاسم:</label>
+    <input type="text" required>
+    
+    <label>البريد الاكترونى:</label>
+    <input type="text" required>
+    
+    <label for="message">الرسالة:</label>
+    <textarea rows="6" required></textarea>
+    
+    <button type="submit">ارسال</button>
+</form>
+</div>
+</main>
+<footer>
+      <b><u><p>Design by Nour Mohammed
+</p></u></b>
+</footer>
